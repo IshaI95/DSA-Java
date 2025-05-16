@@ -3,9 +3,12 @@ package Arrays.Medium;
 public class SpecialIndexPrefixSum {
 
     public static int countSpecialIndex(int[] arr) {
-        int n = arr.length, count=0, se=0, so=0;
-        int[] pfEven = new int[n];
-        int[] pfOdd = new int[n];
+        int n = arr.length;
+        int count=0;
+        long se=0;
+        long so=0;
+        long[] pfEven = new long[n];
+        long[] pfOdd = new long[n];
 
         pfEven[0] = arr[0];
         pfOdd[0] = 0;
