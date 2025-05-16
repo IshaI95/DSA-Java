@@ -40,3 +40,6 @@ public class RangeSumQueryPrefixSum {
         System.out.println(Arrays.toString(getSumInRange(A, B)));
     }
 }
+
+// TC: O(n+m)
+// SC: O(n)

@@ -48,3 +48,6 @@ public class SpecialIndexPrefixSum {
         System.out.println(countSpecialIndex(arr2));
     }
 }
+
+//TC: O(N)
+//SC: O(N)
