@@ -33,7 +33,7 @@ public class Operations {
                 .sum();
         System.out.println("Sum of all the elements in a list " + sum);
 
-        //conver all strings in a list to uppercase
+        //convert all strings in a list to uppercase
         List<String> fruits = Arrays.asList("mango", "apple", "Banana", "Guvava");
 
         List<String> fruitsUpper = fruits
